@@ -1,9 +1,12 @@
 import Image from 'next/image'
+import './globals.css'
+import Slider from './components/clientComponents/Slider'
+
 
 export default function Home() {
   return (
     <>
-    <h1>hi</h1>
+    <Slider />
     </>
   )
 }
